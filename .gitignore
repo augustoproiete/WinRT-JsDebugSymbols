@@ -11,3 +11,7 @@ Thumbs.db
 
 #resharper
 _ReSharper*/
+
+#demo app
+demo/packages/*
+!demo/packages/repositories.config
