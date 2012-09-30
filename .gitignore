@@ -1,0 +1,13 @@
+#windows
+Thumbs.db
+
+#visual studio
+*.user
+*.suo
+[Oo]bj/
+[Bb]in/
+[Bb]ld/
+[Aa]pp[Pp]ackages/
+
+#resharper
+_ReSharper*/
