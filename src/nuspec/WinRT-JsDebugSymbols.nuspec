@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WinRT-JsDebugSymbols</id>
+    <version>0.0.1-local</version>
+    <title>JavaScript Debug Symbols for WinRT</title>
+    <authors>C. Augusto Proiete &amp; Contributors</authors>
+    <owners>augustoproiete</owners>
+    <license type="expression">Apache-2.0</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/augustoproiete/WinRT-JsDebugSymbols</projectUrl>
+    <repository type="git" url="https://github.com/augustoproiete/WinRT-JsDebugSymbols.git" />
+    <description>The JavaScript Debug Symbols for WinRT adds a property to the Debug global object that you can query to detect if the application is running with the Debug build configuration selected, allowing conditional execution of JavaScript code in a Windows Store app.</description>
+    <releaseNotes>https://github.com/augustoproiete/WinRT-JsDebugSymbols/releases</releaseNotes>
+    <tags>JavaScript, Metro, WinRT, WinJS, debug, conditional compilation, Win8, Windows8, "Windows 8", Surface</tags>
+    <copyright>Copyright 2012 C. Augusto Proiete &amp; Contributors - Provided under the Apache License, Version 2.0</copyright>
+  </metadata>
+  <files>
+    <file src="..\js\debugSymbols.js" target="content\netcore45\js\" />
+  </files>
+</package>
