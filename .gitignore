@@ -15,3 +15,7 @@ _ReSharper*/
 #demo app
 demo/packages/*
 !demo/packages/repositories.config
+
+#cake
+/build/*
+/tools/*
