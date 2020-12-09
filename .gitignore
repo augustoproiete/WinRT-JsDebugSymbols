@@ -17,5 +17,6 @@ demo/packages/*
 !demo/packages/repositories.config
 
 #cake
+.cake/
 /build/*
 /tools/*
